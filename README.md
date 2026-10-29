@@ -66,6 +66,12 @@ Exact direct dependencies are in `requirements.txt`; test extras are in `require
 
 ## Standalone Python
 
+For small runnable examples and a walkthrough of what comes from the toolkit,
+start with [Building with Micro-Transformer](docs/building-with-micro-transformer.md).
+It covers direct toolkit inference, each application's real training and checkpoint
+path, and the architecture and world extensions Ava adds. Examples use temporary
+state by default and leave saved Playground models alone.
+
 ```sh
 # Chatbot inference and real fine-tuning
 .venv/bin/python -m showcase predict 'hal move flag six to river. hal tell gia flag six at river. where gia knows flag six?'
@@ -110,6 +116,7 @@ Practice loss and success on known rooms do not establish generalisation. This l
 | `web/` | Plain HTML/CSS/JavaScript; no browser model runtime |
 | `data/`, `tests/fixtures/` | Supplied assets and small retained reference fixtures |
 | `scripts/` | Verified setup, optional reference conversion and real-process review |
+| `examples/` | Runnable toolkit and application examples with optional real training |
 | `state/`, `artifacts/` | Ignored user models and local review output; not for sharing |
 
 See [sharing notes](CONTRIBUTING.md). Code and supplied materials retain the repository's existing [Apache-2.0 license](LICENSE) and [NOTICE](NOTICE). The source is hosted on GitHub; the application runs locally. No hosted application or deployment is provided.
