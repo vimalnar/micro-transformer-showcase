@@ -1,5 +1,7 @@
 # Micro-Transformer Showcase
 
+I’m exploring how small machines learn, and how we can understand what they’re doing. Try Ava in her world, ask questions about stories, or follow messages between devices. Change the practice and see what the model learns, including its mistakes.
+
 Three local applications of a real Python/PyTorch Micro-Transformer:
 
 - **Ava:** chooses actions in a Python-owned Micro-World, including the audited browser extensions, journey memory, and colour keys/doors.
@@ -25,7 +27,7 @@ git clone https://github.com/vimalnar/micro-transformer-showcase.git
 cd micro-transformer-showcase
 ```
 
-The repository is private; cloning requires repository access. You can also copy an authorised source snapshot. The framework setup script clones the canonical framework into the adjacent `../micro-transformer` directory and checks out its exact pinned revision. If that directory already exists, it only verifies it; it never resets, edits or updates an existing checkout.
+The repository is public. You can also copy a source snapshot. The framework setup script clones the canonical framework into the adjacent `../micro-transformer` directory and checks out its exact pinned revision. If that directory already exists, it only verifies it; it never resets, edits or updates an existing checkout.
 
 ```sh
 python3.12 scripts/setup_framework.py
