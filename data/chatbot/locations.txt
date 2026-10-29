@@ -1,0 +1,8 @@
+gia move lamp twelve to dock. where lamp twelve? => dock |
+cy move flag one to river. eri move ring three to room. where flag one? => river |
+da move ring eight to garden. where ring eight? => garden |
+eri move book fifteen to store. fin build coin ten at garden. where book fifteen? => store |
+eri move box sixteen to hall. where box sixteen? => hall |
+cy move chest eight to dock. where chest eight? => dock |
+ava move orb twelve to cave. ben move ball sixteen to garden. ben move orb ten to dock. ben swap ball sixteen with orb ten. where orb twelve? => cave |
+fin move flag two to lab. eri move chest nine to home. eri take chest nine. where flag two? => lab |

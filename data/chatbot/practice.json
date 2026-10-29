@@ -1,0 +1,32 @@
+{
+  "Locations": [
+    "gia move lamp twelve to dock. where lamp twelve? => dock |",
+    "cy move flag one to river. eri move ring three to room. where flag one? => river |",
+    "da move ring eight to garden. where ring eight? => garden |",
+    "eri move book fifteen to store. fin build coin ten at garden. where book fifteen? => store |",
+    "eri move box sixteen to hall. where box sixteen? => hall |",
+    "cy move chest eight to dock. where chest eight? => dock |",
+    "ava move orb twelve to cave. ben move ball sixteen to garden. ben move orb ten to dock. ben swap ball sixteen with orb ten. where orb twelve? => cave |",
+    "fin move flag two to lab. eri move chest nine to home. eri take chest nine. where flag two? => lab |"
+  ],
+  "Ownership": [
+    "da move lamp twelve to dock. da take lamp twelve. da give lamp twelve to ben. ava move map three to cave. da put book fifteen inside box fifteen. da remove book fifteen from box fifteen to river. ben give lamp twelve to hal. who has lamp twelve? => hal |",
+    "hal move tool four to bridge. hal take tool four. hal give tool four to da. who has tool four? => da |",
+    "cy move orb twelve to cave. cy take orb twelve. cy give orb twelve to eri. who has orb twelve? => eri |",
+    "ben move chest eight to garden. ben take chest eight. ben give chest eight to hal. fin open gate five. hal give chest eight to ava. who has chest eight? => ava |",
+    "hal move tool three to tower. hal take tool three. hal give tool three to cy. cy give tool three to eri. who has tool three? => eri |",
+    "fin move map fourteen to home. fin take map fourteen. fin give map fourteen to da. ava unlock gem three. da give map fourteen to ava. who has map fourteen? => ava |",
+    "cy move map seven to bridge. cy take map seven. cy give map seven to hal. who has map seven? => hal |",
+    "gia move book three to home. gia take book three. gia give book three to fin. who has book three? => fin |"
+  ],
+  "Colour updates": [
+    "gia move lamp twelve to dock. gia paint lamp twelve green. what colour lamp twelve? => green |",
+    "gia move flag one to room. gia paint flag one red. gia paint flag one red. gia paint flag one blue. what colour flag one? => blue |",
+    "eri move book fifteen to store. eri paint book fifteen green. eri paint book fifteen green. eri paint book fifteen red. what colour book fifteen? => red |",
+    "eri move orb eight to room. eri paint orb eight blue. what colour orb eight? => blue |",
+    "ava move orb twelve to cave. ava paint orb twelve red. ava paint orb twelve blue. ava paint orb twelve yellow. ava paint orb twelve red. what colour orb twelve? => red |",
+    "fin move chest eight to garden. fin paint chest eight yellow. fin paint chest eight green. fin paint chest eight red. what colour chest eight? => red |",
+    "fin move door seven to home. fin paint door seven blue. fin paint door seven yellow. fin paint door seven green. fin paint door seven blue. ben close ball three. what colour door seven? => blue |",
+    "hal move door fourteen to home. hal paint door fourteen yellow. eri lock ball three. what colour door fourteen? => yellow |"
+  ]
+}

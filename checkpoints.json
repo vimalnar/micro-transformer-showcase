@@ -1,0 +1,43 @@
+{
+  "format": "micro-transformer-showcase-checkpoints-v1",
+  "framework": {
+    "repository": "https://github.com/vimalnar/micro-transformer.git",
+    "revision": "87cb7cd30695dd86cfb5586a41bd8951a2c9bef2",
+    "identity_lock": "framework-lock.json"
+  },
+  "sources": {
+    "chatbot_and_devices": {
+      "location": "framework:baselines/v1.0.0/checkpoints/seed42-inference.pt",
+      "sha256": "c07d54897fb844d27725935d65bbc2874161cca550ca1fe890862bef781be3a5",
+      "source_training_step": 31250,
+      "parameters": 1024512,
+      "optimizer_state_included": false,
+      "loading": "Each showcase loads a separate model; new Adam optimizer; zero local training steps."
+    },
+    "ava": {
+      "source_location": "browser-lab:public/trained-example.json",
+      "source_sha256": "8bbcac2e4bd756e87a6e7de63c0628c45c3d013a591a95e233a592e2966e0f3b",
+      "converted_location": "data/ava/base.pt",
+      "converted_sha256": "9a71b73a78696e848ad1ebe444b06823332b430472e8d45a15d854f14cb44281",
+      "parameters": 134860,
+      "historical_source_rounds": 50,
+      "historical_source_updates": 1400,
+      "optimizer_state_included": false,
+      "source_provenance": "data/ava/provenance.json",
+      "loading": "Converted without training; original learned weights; new AdamW optimizer; zero local training steps."
+    }
+  },
+  "browser_snapshot_note": "The Browser Lab Git revision is context only: the audited application files and source Ava checkpoint were working-tree artifacts, not present in that commit. Their recorded file SHA-256 values identify the source snapshot. Browser Lab is optional for regeneration and is not needed to install, serve, train or test this repository.",
+  "bundled_files": {
+    "data/ava/base.json": "ab96be01d29266170e6964b7667664447bdeb11d68d559cabe5ddf2b397f0d49",
+    "data/ava/base.pt": "9a71b73a78696e848ad1ebe444b06823332b430472e8d45a15d854f14cb44281",
+    "data/ava/provenance.json": "195a0e63d10dcc57c692e404314f3a13f6801a743e2af6ace38fd5a0aa55c29c",
+    "data/chatbot/default.txt": "8ebdfc035ee967ea0eae0cd7a0096ef516fa6bc3e57282ddcff4e9dd30aaaf19",
+    "data/chatbot/locations.txt": "8ebdfc035ee967ea0eae0cd7a0096ef516fa6bc3e57282ddcff4e9dd30aaaf19",
+    "data/chatbot/practice.json": "cffd9732d6c5534b1a810df7a4dd233470dc3b8c3fde3f1414ba9eb6c9928f9b",
+    "data/devices/default.txt": "c347bd9d593f2981d5c9b7701c9d1eb88bec4521cc6a9eac1efd87bed4ef0e54",
+    "data/devices/practice.json": "9d1304c32c97b9a4792abec063dbb260151b71e028406a0a17ad4388437a4250",
+    "tests/fixtures/ava-browser.json.gz": "9d2dd0a1e456dd1ccd1d3d385db604947666026afe171aafc5fbadc9c5530ad3",
+    "tests/fixtures/device-language.json": "0cdaa86e3786592899b7c18d03b8fff488f1b31374436102fcb0648fcf0796e3"
+  }
+}

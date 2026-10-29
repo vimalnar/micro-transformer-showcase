@@ -1,0 +1,12 @@
+{
+  "revision": "87cb7cd30695dd86cfb5586a41bd8951a2c9bef2",
+  "browser_revision": "b4df0f69ea99ddb31ec40c9006a933e90c132bc7",
+  "files": {
+    "models/transformer.py": "143d661a3629a063f2ceabea457799d9f98babe68a08190a2c2b1f5f1fb6f45d",
+    "training/harness.py": "4f0f2c776df31e17d2f43bc686a2d416861aa0a06757dfb47a84adfdeaa5e392",
+    "training/runtime.py": "147b73389a78c9a8fef8cac592fab3946c23fccdc5917b4ed32eaa21bf62232b",
+    "training/data.py": "9f44e11c27de27666cf23984633f620c33d7d6995a289aeb9e9721e8188d1787",
+    "micro-world/micro_transformer/data/generator.py": "cb461b548b6caf66024f1f604c817ab121e7c5190842931595d0aa72a1f79bdc",
+    "baselines/v1.0.0/checkpoints/seed42-inference.pt": "c07d54897fb844d27725935d65bbc2874161cca550ca1fe890862bef781be3a5"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "adapter": "device-location-messages-v1",
+  "browser_revision": "b4df0f69ea99ddb31ec40c9006a933e90c132bc7",
+  "browser_sources": {
+    "src/device-messaging.js": "5f60daa499348572076469bf62d4a9f1718d5e4ff3d084cc17e5f5941a03cc28",
+    "src/device-playground.js": "bf5971f270587b697ec8f18687b5609b8b7ce5fc79c980a4d37a1bcc8710933f",
+    "src/devices.css": "74675d61fbee42f61f358878d204456a2ebb4ff3ba8eab9651052cd4efa9e75d",
+    "tests/fixtures/device-language.json": "0cdaa86e3786592899b7c18d03b8fff488f1b31374436102fcb0648fcf0796e3"
+  },
+  "practice_sha256": "9d1304c32c97b9a4792abec063dbb260151b71e028406a0a17ad4388437a4250",
+  "fixture_sha256": "0cdaa86e3786592899b7c18d03b8fff488f1b31374436102fcb0648fcf0796e3"
+}

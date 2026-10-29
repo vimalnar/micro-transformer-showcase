@@ -1,0 +1,14 @@
+Micro-Transformer Showcase
+Copyright 2026 Vimal Naran
+
+Licensed under the Apache License, Version 2.0; see LICENSE.
+
+Reuses the canonical Micro-Transformer through a locked separate source checkout.
+Upstream notice: Micro-Transformer, Copyright 2026 Vimal Naran, Apache-2.0.
+
+Browser Lab source material: showcase/chatbot/device styles, interface layouts,
+starter practice, Ava extension/world rules and its supplied trained checkpoint.
+Ava tensors were converted without training. Runtime uses Python/PyTorch.
+
+Reference identities and claim boundaries: framework-lock.json, checkpoints.json,
+data/ava/provenance.json and docs/checkpoint-provenance.md.

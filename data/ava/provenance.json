@@ -1,0 +1,23 @@
+{
+  "browser_revision": "b4df0f69ea99ddb31ec40c9006a933e90c132bc7",
+  "browser_files": {
+    "src/python-transformer.js": "bc2402911ceb25b846f2992c6af42980a10bae010186e588faef5c7e2cd74dca",
+    "src/python-transformer-config.js": "c8e7685dfd6c996931f80e3b84f4b212ed49c6166367c87e27cd227a829daa8c",
+    "src/causal-map-agent.js": "3b1457028e9c0da0d8131cb63bedabb26f929a8d88d3ed4dfb2b5db23c95b6e5",
+    "src/capability-kit.js": "f9df39f4d2dca01c2b8f447e50ee30b3771245d273a8b5df1d37cf950cd9449e",
+    "src/map-token-adapter.js": "6c7e9407320e5b708e217c4a6c71c28e53e4bda4b30a3f2bf1de22c341713faa",
+    "src/editable-world.js": "789e9e0bff95aea5a176096977cfb99468d86331215975eec53be109e35aeda9",
+    "src/world-objects.js": "77dc26543c84394599a740c3cd3f2f043bde9e982fca4842eaca6fe4530c414f",
+    "src/micro-world.js": "5019b222b2ca95bdc60131196b1625a33712c68bf0331fa9b52116be20649f7e",
+    "src/navigation-training.js": "cb68879dd02bc71af88206185f41958713d0244a13a338936759ad6349f0d1ea",
+    "src/training-situations.js": "2b2111c0cf3cb13d69a341a0a57701ac4581a096433f40c7c66e023449ffe35e",
+    "src/room-qualification.js": "283bdec03300c3febdf809cfef5c3f2cedafeebb7835cfb893d4de8e1a046903",
+    "src/agent-lab.js": "489d090cd2c90c662bbabab436a43a58835cc8b73f6a29827c7af996743ac7f7",
+    "public/trained-example.json": "8bbcac2e4bd756e87a6e7de63c0628c45c3d013a591a95e233a592e2966e0f3b"
+  },
+  "converted_files": {
+    "base.json": "ab96be01d29266170e6964b7667664447bdeb11d68d559cabe5ddf2b397f0d49",
+    "base.pt": "9a71b73a78696e848ad1ebe444b06823332b430472e8d45a15d854f14cb44281"
+  },
+  "scope": "Weights-only faithful conversion; no training; optimizer starts fresh; canonical source lock remains unchanged."
+}

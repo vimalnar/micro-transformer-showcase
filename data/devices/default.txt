@@ -1,0 +1,8 @@
+hal move flag six to river. hal tell gia flag six at river. hal move flag six to home. hal tell gia flag six at home. where gia knows flag six? => home |
+hal move flag six to lab. hal tell gia flag six at lab. hal move flag six to bridge. hal tell gia flag six at bridge. where gia knows flag six? => bridge |
+hal move flag six to store. hal tell gia flag six at store. hal move flag six to room. hal tell gia flag six at room. where gia knows flag six? => room |
+hal move flag six to home. hal tell gia flag six at home. hal move flag six to forest. hal tell gia flag six at forest. where gia knows flag six? => forest |
+hal move flag six to bridge. hal tell gia flag six at bridge. hal move flag six to dock. hal tell gia flag six at dock. where gia knows flag six? => dock |
+hal move flag six to room. hal tell gia flag six at room. hal move flag six to river. hal tell gia flag six at river. where gia knows flag six? => river |
+hal move flag six to forest. hal tell gia flag six at forest. hal move flag six to lab. hal tell gia flag six at lab. where gia knows flag six? => lab |
+hal move flag six to dock. hal tell gia flag six at dock. hal move flag six to store. hal tell gia flag six at store. where gia knows flag six? => store |
